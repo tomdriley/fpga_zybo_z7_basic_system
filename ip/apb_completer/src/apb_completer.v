@@ -3,7 +3,7 @@
 // Create Date: 06/16/2024 08:58:58 PM
 //////////////////////////////////////////////////////////////////////////////////
 
-module apb_slave #(
+module apb_completer #(
     parameter ADDR_WIDTH = 32,
     parameter DATA_WIDTH = 32,
     parameter REG_COUNT = 4
